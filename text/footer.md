@@ -1,2 +1,2 @@
 Living the Simple Life
-Copyright 2019
+Copyright 2023
