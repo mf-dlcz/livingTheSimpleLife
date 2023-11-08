@@ -85,6 +85,17 @@ header {
     }
 }
 
+footer {
+    background-color: #143774;
+    height: 172px;
+}
+footer p {
+    color: #FFFFFF;
+    font-size: 18px;
+    opacity: 54%;
+    text-align: center;
+}
+
 /* navigation */
 
 nav ul {
