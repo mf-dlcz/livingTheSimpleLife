@@ -74,6 +74,7 @@ strong {
 .article-info {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #707070;
+    margin: 2em 0;
 }
 
 .article-read-more,
@@ -98,22 +99,14 @@ Layout
 
 .container-flex {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
 }
 
 header {
     background: #f8f8f8;
     padding: 2em 0;
-}
-
-@media (max-width: 675px) {
-    .container-flex {
-        flex-direction: column;
-    }
-    
-    header {
-        text-align: center;
-    }
+    text-align: center;
 }
 
 footer {
@@ -127,12 +120,18 @@ footer p {
     text-align: center;
 }
 
-main {
-    width: 75%;
-}
+@media (min-width: 675px) {
+    .container-flex {
+        flex-direction: row;
+    }
 
-aside {
-    width: 20%;
+    main {
+        width: 75%;
+    }
+
+    aside {
+        width: 20%;
+    }
 }
 
 /* navigation */
