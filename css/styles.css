@@ -11,6 +11,11 @@ body {
     font-weight: 300;
 }
 
+img {
+    max-width: 100%;
+    display: block;
+}
+
 /* =================
 Typography
 ================= */
@@ -91,7 +96,7 @@ Layout
     margin: 0 auto;
 }
 
-.container-nav {
+.container-flex {
     display: flex;
     justify-content: space-between;
 }
@@ -102,7 +107,7 @@ header {
 }
 
 @media (max-width: 675px) {
-    .container-nav {
+    .container-flex {
         flex-direction: column;
     }
     
@@ -120,6 +125,14 @@ footer p {
     font-size: 18px;
     opacity: 54%;
     text-align: center;
+}
+
+main {
+    width: 75%;
+}
+
+aside {
+    width: 20%;
 }
 
 /* navigation */
@@ -160,7 +173,6 @@ nav a:focus {
     nav ul {
         flex-direction: column;
     }
-    
     nav li {
         margin: .5em 0;
     }
