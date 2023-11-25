@@ -28,6 +28,19 @@ h3,
     font-weight: 400;
 }
 
+a {
+    color:#1792D2;
+}
+
+a:hover,
+a:focus {
+    color:#143774;
+}
+
+strong {
+    font-weight: bolder;
+}
+
 /*Heading subtitle*/
 .subtitle {
     font-weight: 700;
