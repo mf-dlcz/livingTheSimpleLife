@@ -16,14 +16,13 @@ img {
     display: block;
 }
 
-/* =================
-Typography
-================= */
+/*  Typography  */
 
 h1 {
     color: #143774;
     font-size: 2rem;
     margin: 0;
+    margin-top: 0;
 }
 
 h1,
@@ -46,7 +45,7 @@ strong {
     font-weight: bolder;
 }
 
-/*Heading subtitle*/
+/*  Heading subtitle    */
 .subtitle {
     font-weight: 700;
     color: #1792D2;
@@ -87,9 +86,7 @@ strong {
     font-size: 24px;
 }
 
-/* =================
-Layout
-================= */
+/*  layout  */
 
 .container {
     width: 90%;
@@ -107,6 +104,7 @@ header {
     background: #f8f8f8;
     padding: 2em 0;
     text-align: center;
+    margin-bottom: 3em;
 }
 
 footer {
@@ -134,7 +132,7 @@ footer p {
     }
 }
 
-/* navigation */
+/*  navigation  */
 
 nav ul {
     list-style: none;
@@ -175,4 +173,26 @@ nav a:focus {
     nav li {
         margin: .5em 0;
     }
+}
+
+/*  articles    */
+
+.article-featured {
+    border-bottom: 1px solid #707070;
+    padding-bottom: 2em;
+    margin-bottom: 2em;
+}
+
+.article-recent {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2em;
+}
+
+.article-recent-main {
+    order: 2;
+}
+
+.article-recent-secondary {
+    order: 1;
 }
