@@ -19,10 +19,8 @@ img {
 /*  Typography  */
 
 h1 {
-    color: #143774;
     font-size: 2rem;
     margin: 0;
-    margin-top: 0;
 }
 
 h1,
@@ -30,6 +28,8 @@ h3,
 .article-title {
     font-family: 'Lora', serif;
     font-weight: 400;
+    color: #143774;
+    margin-top: 0;
 }
 
 a {
@@ -42,7 +42,7 @@ a:focus {
 }
 
 strong {
-    font-weight: bolder;
+    font-weight: 700;
 }
 
 /*  Heading subtitle    */
@@ -195,4 +195,35 @@ nav a:focus {
 
 .article-recent-secondary {
     order: 1;
+}
+
+@media (min-width: 675px) {
+    .article-recent {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .article-recent-main {
+        width: 67%;
+    }
+
+    .article-recent-secondary {
+        width: 30%;
+        margin-bottom: 0;
+    }
+
+    .article-featured {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .article-img {
+        width: 100%;
+        min-height: 250px;
+        object-fit: cover;
+    }
+
+    .aligned-img {
+        object-position: left;
+    }
 }
