@@ -7,6 +7,8 @@ font-family: 'Ubuntu', sans-serif;
 body {
     margin: 0;
     font-family: 'Ubuntu', sans-serif;
+    font-size: 1.125rem;
+    font-weight: 300;
 }
 
 /* =================
@@ -42,13 +44,23 @@ h3,
     text-transform: uppercase;
     text-decoration: none;
     color:#1792d2;
-    font-size: 14px;
     font-weight: bold;
+}
+
+.article-read-more:hover,
+.article-read-more:focus {
+   color:#143774;
+   text-decoration: underline; 
 }
 
 .article-info {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #707070;
+}
+
+.article-read-more,
+.article-info {
+    font-size: 14px;
 }
 
 .article-title {
