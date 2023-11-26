@@ -1,8 +1,8 @@
-# Living the social life
+# Living the simple life
 
 ## Table of Contents
 
-- [Living the social life](#living-the-social-life)
+- [Living the simple life](#living-the-simple-life)
   - [Table of Contents](#table-of-contents)
   - [Project Overview](#project-overview)
   - [Demo](#demo)
