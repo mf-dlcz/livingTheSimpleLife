@@ -75,6 +75,7 @@ strong {
     text-decoration: none;
     color:#1792d2;
     font-weight: bold;
+    letter-spacing: 1px;
 }
 
 .article-read-more:hover,
@@ -156,6 +157,7 @@ nav ul {
     display: flex;
     justify-content: center;
     text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 nav li {
@@ -175,7 +177,7 @@ nav a:focus {
 }
 
 .current-page {
-    border-bottom: 1px solid #707070;
+    border-bottom: 2px dashed #707070;
 }
 
 .current-page:hover {
@@ -265,6 +267,7 @@ nav a:focus {
     margin: 8px;
     font-weight: 700;
     font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 1px;
 }
 
 .sidebar-widget {
