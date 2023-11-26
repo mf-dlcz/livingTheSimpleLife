@@ -184,6 +184,10 @@ nav a:focus {
     color: #707070;
 }
 
+.leaves-pattern {
+    background-image: url(/img/geometric-leaves.png);
+}
+
 @media (max-width: 675px) {
     nav ul {
         flex-direction: column;
