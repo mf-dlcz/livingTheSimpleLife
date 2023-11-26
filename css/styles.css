@@ -123,7 +123,7 @@ header {
 
 footer {
     background-color: #143774;
-    color: #FFFFFF;
+    color: rgba(255, 255, 255, 0.70);
     font-size: 18px;
     text-align: center;
     padding: 3em 0;
