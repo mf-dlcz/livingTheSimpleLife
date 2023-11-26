@@ -109,13 +109,11 @@ header {
 
 footer {
     background-color: #143774;
-    height: 172px;
-}
-footer p {
     color: #FFFFFF;
     font-size: 18px;
     opacity: 54%;
     text-align: center;
+    padding: 3em 0;
 }
 
 @media (min-width: 675px) {
@@ -236,14 +234,37 @@ nav a:focus {
 
 /*  widget  */
 
+.widget-title,
+.widget-recent-post-title {
+    font-size: 1rem;
+}
+
 .widget-title {
     text-transform: uppercase;
     margin: 8px;
-    font-weight: 400;
+    font-weight: 700;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .sidebar-widget {
     border: 20px #E9EAE9 solid;
     margin-bottom: 50px;
     padding: 1em;
+}
+
+.widget-recent-post {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #707070;
+    margin-bottom: 20px;
+}
+
+.widget-recent-post:last-child {
+    border: 0;
+    margin: 0;
+}
+
+.widget-img {
+    order: -1;
+    padding-bottom: 0.5rem;
 }
