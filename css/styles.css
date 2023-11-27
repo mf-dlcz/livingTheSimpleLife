@@ -249,8 +249,12 @@ nav a:focus {
         order: -1;
     }
 
-    .aligned-img {
-        object-position: left;
+    .aligned-img-left {
+        object-position: 10% 50%;
+    }
+
+    .aligned-img-right {
+        object-position: 83% 50%;
     }
 }
 
