@@ -11,6 +11,7 @@
 ## Project overview
 This is a website resembling a blogpost
 
+## Demo
 ![website screenshot](/img/sample.PNG)
 
 ## Quick start:
